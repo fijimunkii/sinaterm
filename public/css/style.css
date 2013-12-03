@@ -1,0 +1,38 @@
+@font-face {
+   font-family: "Delicious";
+   src: url("Glass_TTY_VT220.ttf"); 
+}
+
+* {
+	background-color: #000;
+	color: rgb(89, 209,	33);
+	font-family: "Delicious";
+	font-size: 40px;
+}
+
+#terminal_input {
+	position:absolute;
+	bottom: 0;
+}
+
+#terminal_inner{
+	position:relative;
+	top: 40px;
+	left: 10px;
+}
+
+p {
+	color: #fff;
+}
+
+input {
+	color: rgb(89, 209, 33);
+	background-color: #000;
+	border: 0;
+	padding: 0;
+	width: 650px;
+	font-size: 40px;
+	font-family: "Delicious";
+}
+
+input:focus { outline: none; }
